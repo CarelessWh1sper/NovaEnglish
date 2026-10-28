@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Nova Institute</title>
+<meta name="description" content="Nova Institute: English courses for every level, small groups, conversation first."><link rel="icon" href="assets/dlaIcon.jpg">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="topbar"><div class="wrap"><span data-en="Saturday–Thursday, 17:00–22:00" data-fa="شنبه تا پنجشنبه، ۱۷:۰۰ تا ۲۲:۰۰">Saturday–Thursday, 17:00–22:00</span><a class="ltr" href="tel:+44 20 7946 0583">+44 20 7946 0583</a><a class="ltr" href="#">@Nova_institue</a></div></div><header class="site">
+  <div class="nav">
+    <img src="favicon.png" class="dlaIcon" alt="Nova Institute">
+    
+    <div class="lang-switcher" onclick="toggleLangDropdown(event)">
+      <span class="lang-label">
+        <span class="flag" id="currentFlag">🇮🇷</span>
+        <span class="active-lang" id="currentLangLabel">FA</span>
+      </span>
+      <span class="arrow" id="langArrow">▾</span>
+      <div class="lang-dropdown" id="langDropdown">
+        <div class="lang-option active-lang" data-lang="fa" onclick="switchLanguage('fa', event)">
+          <span class="flag">🇮🇷</span> فارسی
+        </div>
+        <div class="lang-option" data-lang="en" onclick="switchLanguage('en', event)">
+          <span class="flag">🇬🇧</span> English
+        </div>
+      </div>
+    </div>
+    
+    <a class="logo" href="index.html">Nova<span class="dot">.</span></a>
+    <button class="menu-btn" aria-label="Toggle menu" onclick="toggleMenu()">
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M3 6H21M3 12H21M3 18H21" stroke="#0B3B38" stroke-width="2"/></svg>
+    </button>
+    <nav class="links" id="navLinks">
+      <a href="index.html" data-en="Home" data-fa="خانه">Home</a>
+      <a href="about.html" data-en="About" data-fa="درباره ما">About</a>
+      <a href="courses.html" data-en="Courses" data-fa="دوره‌ها">Courses</a>
+      <a href="level-test.html" data-en="Placement Test" data-fa="آزمون تعیین سطح">Placement Test</a>
+      <a href="contact.html" class="active" data-en="Contact" data-fa="تماس با ما">Contact</a>
+      <a href="contact.html" class="nav-cta mobile" data-en="Enroll now" data-fa="ثبت‌نام کنید">Enroll now</a>
+    </nav>
+    <a href="contact.html" class="nav-cta" data-en="Enroll now" data-fa="ثبت‌نام کنید">Enroll now</a>
+  </div>
+</header>
+<div class="page-hero"><div class="wrap"><h1 data-en="Let's find the right class for you." data-fa="بیایید کلاس مناسب شما را پیدا کنیم.">Let's find the right class for you.</h1><p data-en="Call, message us on Instagram, or visit in person. We'll help you choose a level and a course." data-fa="تماس بگیرید، در اینستاگرام پیام بدهید یا حضوری بیایید. در انتخاب سطح و دوره کمکتان می‌کنیم.">Call, message us on Instagram, or visit in person. We'll help you choose a level and a course.</p></div></div>
+<section><div class="wrap"><div class="contact-grid"><div class="card"><h3 data-en="Visit us" data-fa="به ما سر بزنید">Visit us</h3><p data-en="No. 24, Second Floor, Rosewood Building, 87 Kingsway Street" data-fa="طبقه دوم، پلاک ۲۴، ساختمان رزوود، خیابان کینگزوِی ۸۷">No. 24, Second Floor, Rosewood Building, 87 Kingsway Street</p></div><div class="card"><h3 data-en="Opening hours" data-fa="ساعات کاری">Opening hours</h3><p data-en="Saturday to Thursday, 17:00–22:00. Closed on Fridays and holidays." data-fa="شنبه تا پنجشنبه، ۱۷:۰۰ تا ۲۲:۰۰. جمعه‌ها و روزهای تعطیل تعطیل است.">Saturday to Thursday, 17:00–22:00. Closed on Fridays and holidays.</p></div><div class="card"><h3 data-en="Call us" data-fa="تماس تلفنی">Call us</h3><p><a class="big ltr" href="tel:+44 20 7946 0583">+44 20 7946 0583</a></p></div><div class="card"><h3 data-en="Instagram" data-fa="اینستاگرام">Instagram</h3><p><a class="big ltr" href="#">@Nova_institue</a></p></div><div class="card wide"><div><h3 data-en="Placement test" data-fa="آزمون تعیین سطح">Placement test</h3><p data-en="Call the institute to book an in-person test, or try the online version now." data-fa="برای رزرو آزمون حضوری با موسسه تماس بگیرید یا همین حالا نسخه آنلاین را امتحان کنید.">Call the institute to book an in-person test, or try the online version now.</p></div><a class="btn btn-dark" href="level-test.html" data-en="Take the online test" data-fa="شرکت در آزمون آنلاین">Take the online test</a></div></div></div></section>
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="foot-logo">Nova.</div>
+        <p data-en="A neighbourhood English institute teaching through real conversation." data-fa="یک موسسه زبان انگلیسی محلی که از طریق مکالمه واقعی آموزش می‌دهد.">
+          A neighbourhood English institute teaching through real conversation.
+        </p>
+      </div>
+      <div>
+        <h4 data-en="Institute" data-fa="موسسه">Institute</h4>
+        <ul><li><a href="about.html" data-en="About us" data-fa="درباره ما">About us</a></li><li><a href="contact.html" data-en="Contact" data-fa="تماس">Contact</a></li></ul>
+      </div>
+      <div>
+        <h4 data-en="Learn" data-fa="یادگیری">Learn</h4>
+        <ul><li><a href="courses.html" data-en="Courses" data-fa="دوره‌ها">Courses</a></li><li><a href="level-test.html" data-en="Placement test" data-fa="آزمون تعیین سطح">Placement test</a></li></ul>
+      </div>
+      <div>
+        <h4 data-en="Visit" data-fa="بازدید">Visit</h4>
+        <ul><li data-en="No. 24, Second Floor, <br> Rosewood Building, 87 Kingsway Street" data-fa="طبقه دوم، پلاک ۲4 <br> ساختمان رزوود، خیابان کینگزوِی ۸۷">No. 24, Second Floor, <br> Rosewood Building, 87 Kingsway Street</li><li data-en="Sat-Thu, 17:00–22:00" data-fa="شنبه تا پنجشنبه، ۱۷:۰۰–۲۲:۰۰">Sat-Thu, 17:00–22:00</li><li><a class="ltr" href="#">@nove_institute</a></li></ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span data-en="© 2026 Nova Institute." data-fa="© ۲۰۲۶ موسسه نوا.">© 2026 Nova Institute.</span>
+      <span data-en="Designed By x." data-fa="طراحی شده توسط x .">Designed By x.</span>
+    </div>
+  </div>
+</footer>
+<script src="main.js"></script>
+</body>
+</html>

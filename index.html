@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nova Institute — Learn a language, live in it</title>
+<meta name="description" content="Nova Institute: English courses for every level, small groups, conversation first."><link rel="icon" href="assets/dlaIcon.jpg">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<div class="topbar"><div class="wrap"><span data-en="Saturday–Thursday, 17:00–22:00" data-fa="شنبه تا پنجشنبه، ۱۷:۰۰ تا ۲۲:۰۰">Saturday–Thursday, 17:00–22:00</span><a class="ltr" href="tel:+44 20 7946 0583">+44 20 7946 0583</a><a class="ltr" href="#">@Nova_institue</a></div></div><header class="site">
+  <div class="nav">
+    <img src="favicon.png" class="dlaIcon" alt="Nova Institute">
+    
+    <div class="lang-switcher" onclick="toggleLangDropdown(event)">
+      <span class="lang-label">
+        <span class="flag" id="currentFlag">🇮🇷</span>
+        <span class="active-lang" id="currentLangLabel">FA</span>
+      </span>
+      <span class="arrow" id="langArrow">▾</span>
+      <div class="lang-dropdown" id="langDropdown">
+        <div class="lang-option active-lang" data-lang="fa" onclick="switchLanguage('fa', event)">
+          <span class="flag">🇮🇷</span> فارسی
+        </div>
+        <div class="lang-option" data-lang="en" onclick="switchLanguage('en', event)">
+          <span class="flag">🇬🇧</span> English
+        </div>
+      </div>
+    </div>
+    
+    <a class="logo" href="index.html">Nova<span class="dot">.</span></a>
+    <button class="menu-btn" aria-label="Toggle menu" onclick="toggleMenu()">
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M3 6H21M3 12H21M3 18H21" stroke="#0B3B38" stroke-width="2"/></svg>
+    </button>
+    <nav class="links" id="navLinks">
+      <a href="index.html" class="active" data-en="Home" data-fa="خانه">Home</a>
+      <a href="about.html" data-en="About" data-fa="درباره ما">About</a>
+      <a href="courses.html" data-en="Courses" data-fa="دوره‌ها">Courses</a>
+      <a href="level-test.html" data-en="Placement Test" data-fa="آزمون تعیین سطح">Placement Test</a>
+      <a href="contact.html" data-en="Contact" data-fa="تماس با ما">Contact</a>
+      <a href="contact.html" class="nav-cta mobile" data-en="Enroll now" data-fa="ثبت‌نام کنید">Enroll now</a>
+    </nav>
+    <a href="contact.html" class="nav-cta" data-en="Enroll now" data-fa="ثبت‌نام کنید">Enroll now</a>
+  </div>
+</header>
+
+<section class="hero"><div class="wrap hero-grid"><div class="hero-copy"><h1 data-en="Stop translating.<br><span class='hl'>Start thinking in the language.</span>" data-fa="ترجمه را متوقف کنید.<br><span class='hl'>به انگلیسی فکر کنید.</span>">Stop translating.<br><span class='hl'>Start thinking in the language.</span></h1><p class="lead" data-en="Nova Institute is a language school built around speaking from day one — small groups, native-fluent teachers, and a placement test that actually puts you in the right room." data-fa="موسسه نوا یک مدرسه زبان است که از روز اول بر پایه مکالمه بنا شده است — گروه‌های کوچک، معلمان مسلط به زبان، و آزمون تعیین سطحی که شما را در کلاس مناسب قرار می‌دهد.">
+        Nova Institute is a language school built around speaking from day one — small groups, native-fluent teachers, and a placement test that actually puts you in the right room.
+      </p><div class="hero-actions">
+        <a href="level-test.html" class="btn btn-primary" data-en="Take the placement test" data-fa="شرکت در آزمون تعیین سطح">Take the placement test</a>
+        <a href="courses.html" class="btn" data-en="Browse courses" data-fa="مشاهده دوره‌ها">Browse courses</a>
+      </div></div><div class="hero-art"><div class="photo"><img src="main.jpg" alt="Students in a language class discussing around a table"></div><div class="bubbles" aria-hidden="true"><div class="bub fa" id="bubFa" lang="fa" dir="rtl"></div><div class="bub en" id="bubEn" lang="en"></div></div></div></div></section>
+
+<div class="stats"><div><div class="n" data-en="1,500+" data-fa="۱٬۵۰۰+">1,500+</div><div class="l" data-en="Graduates" data-fa="فارغ‌التحصیلان">Graduates</div></div><div><div class="n" data-en="10" data-fa="۱۰">10</div><div class="l" data-en="Teachers" data-fa="معلمان">Teachers</div></div><div><div class="n" data-en="since 1390" data-fa="از ۱۳۹۰">since 1390</div><div class="l" data-en="Work history" data-fa="سابقه فعالیت">Work history</div></div><div><div class="n" data-en="96%" data-fa="۹۶٪">96%</div><div class="l" data-en="Recommend us" data-fa="توصیه می‌کنند">Recommend us</div></div></div>
+
+<section><div class="wrap"><div class="section-head"><h2 data-en="Learn to speak, not just to translate." data-fa="صحبت کردن یاد بگیرید، نه فقط ترجمه.">Learn to speak, not just to translate.</h2></div><div class="grid-3"><div class="card">
+        
+        <h3 data-en="Speak from lesson one" data-fa="از درس اول صحبت کنید">Speak from lesson one</h3>
+        <p data-en="Even absolute beginners are speaking full sentences by the end of their first class." data-fa="حتی مبتدیان مطلق تا پایان اولین کلاس خود جملات کامل صحبت می‌کنند.">
+          Even absolute beginners are speaking full sentences by the end of their first class.
+        </p>
+      </div><div class="card">
+        
+        <h3 data-en="Small, fixed groups" data-fa="گروه‌های کوچک و ثابت">Small, fixed groups</h3>
+        <p data-en="The same eight people for the whole term, so the room gets comfortable fast." data-fa="هشت نفر یکسان برای کل ترم، بنابراین محیط به سرعت راحت می‌شود.">
+          The same eight people for the whole term, so the room gets comfortable fast.
+        </p>
+      </div><div class="card">
+        
+        <h3 data-en="Tested, not guessed" data-fa="آزمون داده شده، نه حدس زده شده">Tested, not guessed</h3>
+        <p data-en="Every student starts at the right level, thanks to the placement test — not a self-assessment." data-fa="هر دانشجو در سطح مناسب شروع می‌کند، به لطف آزمون تعیین سطح — نه خودارزیابی.">
+          Every student starts at the right level, thanks to the placement test — not a self-assessment.
+        </p>
+      </div></div></div></section><section class="tight"><div class="wrap"><div class="section-head"><h2 data-en="Courses for every level" data-fa="دوره‌هایی برای هر سطح">Courses for every level</h2><a href="courses.html" class="btn btn-dark" data-en="All courses" data-fa="همه دوره‌ها">All courses</a></div><div class="grid-3"><div class="course-card">
+        <div class="course-top">
+          <div><h3 data-en="Connect 1" data-fa="کانکت ۱">Connect 1</h3></div>
+          <span class="course-level">A1</span>
+        </div>
+        <div class="course-body">
+          <p data-en="This is a beginning-level book designed for teenagers aged 11–15 who are learning English for the first time." data-fa="این یک کتاب سطح مبتدی است که برای نوجوانان ۱۱ تا ۱۵ ساله که برای اولین بار انگلیسی یاد می‌گیرند طراحی شده است.">
+            This is a beginning-level book designed for teenagers aged 11–15 who are learning English for the first time.
+          </p>
+          <div class="course-meta"><span data-en="3 terms, 16 sessions each" data-fa="۳ ترم، هر ترم ۱۶ جلسه">3 terms, 16 sessions each</span><span data-en="2×/week" data-fa="۲ بار در هفته">2×/week</span></div>
+        </div>
+        <div class="course-foot"><span class="price" data-en="1,950,000 Toman" data-fa="۱٬۹۵۰٬۰۰۰ تومان">1,950,000 Toman</span><a class="btn btn-dark btn-sm" href="contact.html" data-en="Enroll" data-fa="ثبت‌نام">Enroll</a></div>
+      </div><div class="course-card">
+        <div class="course-top">
+          <div><h3 data-en="American English File 1" data-fa="امریکن اینگلیش فایل ۱">American English File 1</h3></div>
+          <span class="course-level">A1-A2</span>
+        </div>
+        <div class="course-body">
+          <p data-en="This book is conversation-based and places the greatest emphasis on developing speaking skills." data-fa="این کتاب مبتنی بر مکالمه است و بیشترین تاکید را بر توسعه مهارت‌های گفتاری دارد.">
+            This book is conversation-based and places the greatest emphasis on developing speaking skills.
+          </p>
+          <div class="course-meta"><span data-en="3 terms, 16 sessions each" data-fa="۳ ترم، هر ترم ۱۶ جلسه">3 terms, 16 sessions each</span><span data-en="2×/week" data-fa="۲ بار در هفته">2×/week</span></div>
+        </div>
+        <div class="course-foot"><span class="price" data-en="2,500,000 Toman" data-fa="۲٬۵۰۰٬۰۰۰ تومان">2,500,000 Toman</span><a class="btn btn-dark btn-sm" href="contact.html" data-en="Enroll" data-fa="ثبت‌نام">Enroll</a></div>
+      </div><div class="course-card">
+        <div class="course-top">
+          <div><h3 data-en="American English File 3" data-fa="امریکن اینگلیش فایل ۳">American English File 3</h3></div>
+          <span class="course-level">B1</span>
+        </div>
+        <div class="course-body">
+          <p data-en="This is an upper-intermediate level book covering verb tenses, modal verbs, third conditionals, and reported speech." data-fa="این یک کتاب سطح بالا-متوسط است که شامل زمان‌های فعل، افعال modal، شرطی نوع سوم و گفتار غیرمستقیم است.">
+            This is an upper-intermediate level book covering verb tenses, modal verbs, third conditionals, and reported speech.
+          </p>
+          <div class="course-meta"><span data-en="3 terms, 16 sessions each" data-fa="۳ ترم، هر ترم ۱۶ جلسه">3 terms, 16 sessions each</span><span data-en="2×/week" data-fa="۲ بار در هفته">2×/week</span></div>
+        </div>
+        <div class="course-foot"><span class="price" data-en="3,000,000 Toman" data-fa="۳٬۰۰۰٬۰۰۰ تومان">3,000,000 Toman</span><a class="btn btn-dark btn-sm" href="contact.html" data-en="Enroll" data-fa="ثبت‌نام">Enroll</a></div>
+      </div></div></div></section><section class="band-ink tight">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        
+        <h2 data-en="Find your level in<br>12 minutes." data-fa="سطح خود را در<br>۱۲ دقیقه پیدا کنید.">Find your level in<br>12 minutes.</h2>
+      </div>
+      <a href="level-test.html" class="btn btn-primary" data-en="Take the placement test" data-fa="شرکت در آزمون تعیین سطح">Take the placement test</a>
+    </div>
+    <div class="level-gauge">
+      <div>A1</div><div>A2</div><div class="active">B1</div><div>B2</div><div>C1</div><div>C2</div>
+    </div>
+  </div>
+</section>
+
+<section class="band-teal tight">
+  <div class="wrap center">
+    <h2 data-en="Your next conversation starts here." data-fa="مکالمه بعدی شما از اینجا شروع می‌شود.">Your next conversation starts here.</h2>
+    <p data-en="Find your level, pick a course, and call us to reserve your seat." data-fa="سطح خود را پیدا کنید، یک دوره انتخاب کنید و برای رزرو جای خود تماس بگیرید.">
+      Find your level, pick a course, and call us to reserve your seat.
+    </p>
+    <div class="row">
+      <a href="level-test.html" class="btn btn-primary" data-en="Take the placement test" data-fa="شرکت در آزمون تعیین سطح">Take the placement test</a>
+      <a href="courses.html" class="btn" data-en="Browse courses" data-fa="مشاهده دوره‌ها">Browse courses</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="foot-logo">Nova.</div>
+        <p data-en="A neighbourhood English institute teaching through real conversation." data-fa="یک موسسه زبان انگلیسی محلی که از طریق مکالمه واقعی آموزش می‌دهد.">
+          A neighbourhood English institute teaching through real conversation.
+        </p>
+      </div>
+      <div>
+        <h4 data-en="Institute" data-fa="موسسه">Institute</h4>
+        <ul><li><a href="about.html" data-en="About us" data-fa="درباره ما">About us</a></li><li><a href="contact.html" data-en="Contact" data-fa="تماس">Contact</a></li></ul>
+      </div>
+      <div>
+        <h4 data-en="Learn" data-fa="یادگیری">Learn</h4>
+        <ul><li><a href="courses.html" data-en="Courses" data-fa="دوره‌ها">Courses</a></li><li><a href="level-test.html" data-en="Placement test" data-fa="آزمون تعیین سطح">Placement test</a></li></ul>
+      </div>
+      <div>
+        <h4 data-en="Visit" data-fa="بازدید">Visit</h4>
+        <ul><li data-en="No. 24, Second Floor, <br> Rosewood Building, 87 Kingsway Street" data-fa="طبقه دوم، پلاک ۲4 <br> ساختمان رزوود، خیابان کینگزوِی ۸۷">No. 24, Second Floor, <br> Rosewood Building, 87 Kingsway Street</li><li data-en="Sat-Thu, 17:00–22:00" data-fa="شنبه تا پنجشنبه، ۱۷:۰۰–۲۲:۰۰">Sat-Thu, 17:00–22:00</li><li><a class="ltr" href="#">@nove_institute</a></li></ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span data-en="© 2026 Nova Institute." data-fa="© ۲۰۲۶ موسسه نوا.">© 2026 Nova Institute.</span>
+      <span data-en="Designed By x." data-fa="طراحی شده توسط x .">Designed By x.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>

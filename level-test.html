@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Placement Test — Nova Institute</title>
+<meta name="description" content="Nova Institute: English courses for every level, small groups, conversation first."><link rel="icon" href="assets/dlaIcon.jpg">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="topbar"><div class="wrap"><span data-en="Saturday–Thursday, 17:00–22:00" data-fa="شنبه تا پنجشنبه، ۱۷:۰۰ تا ۲۲:۰۰">Saturday–Thursday, 17:00–22:00</span><a class="ltr" href="tel:+44 20 7946 0583">+44 20 7946 0583</a><a class="ltr" href="#">@Nova_institue</a></div></div><header class="site">
+  <div class="nav">
+    <img src="favicon.png" class="dlaIcon" alt="Nova Institute">
+    
+    <div class="lang-switcher" onclick="toggleLangDropdown(event)">
+      <span class="lang-label">
+        <span class="flag" id="currentFlag">🇮🇷</span>
+        <span class="active-lang" id="currentLangLabel">FA</span>
+      </span>
+      <span class="arrow" id="langArrow">▾</span>
+      <div class="lang-dropdown" id="langDropdown">
+        <div class="lang-option active-lang" data-lang="fa" onclick="switchLanguage('fa', event)">
+          <span class="flag">🇮🇷</span> فارسی
+        </div>
+        <div class="lang-option" data-lang="en" onclick="switchLanguage('en', event)">
+          <span class="flag">🇬🇧</span> English
+        </div>
+      </div>
+    </div>
+    
+    <a class="logo" href="index.html">Nova<span class="dot">.</span></a>
+    <button class="menu-btn" aria-label="Toggle menu" onclick="toggleMenu()">
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M3 6H21M3 12H21M3 18H21" stroke="#0B3B38" stroke-width="2"/></svg>
+    </button>
+    <nav class="links" id="navLinks">
+      <a href="index.html" data-en="Home" data-fa="خانه">Home</a>
+      <a href="about.html" data-en="About" data-fa="درباره ما">About</a>
+      <a href="courses.html" data-en="Courses" data-fa="دوره‌ها">Courses</a>
+      <a href="level-test.html" class="active" data-en="Placement Test" data-fa="آزمون تعیین سطح">Placement Test</a>
+      <a href="contact.html" data-en="Contact" data-fa="تماس با ما">Contact</a>
+      <a href="contact.html" class="nav-cta mobile" data-en="Enroll now" data-fa="ثبت‌نام کنید">Enroll now</a>
+    </nav>
+    <a href="contact.html" class="nav-cta" data-en="Enroll now" data-fa="ثبت‌نام کنید">Enroll now</a>
+  </div>
+</header>
+
+<div class="page-hero">
+  <div class="wrap">
+    
+    <h1 data-en="Find your level. Takes about 12 minutes." data-fa="سطح خود را پیدا کنید. حدود ۱۲ دقیقه زمان می‌برد.">Find your level. Takes about 12 minutes.</h1>
+    <p data-en="Eight English-language questions, increasing in difficulty. Answer as instinctively as you can — there's no penalty for guessing, and you'll get your level immediately." data-fa="هشت سؤال انگلیسی با سختی افزایشی. تا جای ممکن سریع و شهودی پاسخ دهید؛ حدس زدن جریمه‌ای ندارد و سطح خود را بلافاصله می‌بینید.">Eight English-language questions, increasing in difficulty. Answer as instinctively as you can — there's no penalty for guessing, and you'll get your level immediately.</p>
+  </div>
+</div>
+
+<section>
+  <div class="wrap">
+    <div id="quiz-area">
+      <div class="quiz-progress" id="progress">Question 1 of 8</div>
+      <div class="quiz-card">
+        <div class="quiz-q" id="q-text"></div>
+        <div class="quiz-opts" id="q-opts"></div>
+        <div class="quiz-foot">
+          <span id="hint">Select an answer to continue</span>
+          <button class="btn btn-primary" id="next-btn" disabled>Next</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="quiz-result" id="result">
+      <span class="eyebrow" data-en="Your result" data-fa="نتیجه شما">Your result</span>
+      <div class="lvl" id="result-level">B1</div>
+      <h3>Intermediate</h3>
+      <p>
+        You're comfortable with everyday conversation and can follow most discussions, but idioms and faster speech still trip you up.
+      </p>
+      <div>
+        <a href="courses.html" class="btn btn-primary" data-en="See matching courses" data-fa="مشاهده دوره‌های مناسب">See matching courses</a>
+        <button class="btn" onclick="location.reload()" data-en="Retake test" data-fa="تکرار آزمون">Retake test</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band-ink tight">
+  <div class="wrap">
+    <div class="section-head">
+      <div><h2 data-en="Wrong level, wasted term." data-fa="سطح اشتباه، ترم هدررفته.">Wrong level, wasted term.</h2></div>
+      <p class="section-sub" data-en="Students placed correctly from the start are far more likely to finish their course and move up a level within the year." data-fa="دانشجویانی که از ابتدا در سطح درست قرار می‌گیرند، بسیار بیشتر احتمال دارد دوره را تمام کنند و ظرف یک سال یک سطح بالا بروند.">Students placed correctly from the start are far more likely to finish their course and move up a level within the year.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="foot-logo">Nova.</div>
+        <p data-en="A neighbourhood English institute teaching through real conversation." data-fa="یک موسسه زبان انگلیسی محلی که از طریق مکالمه واقعی آموزش می‌دهد.">
+          A neighbourhood English institute teaching through real conversation.
+        </p>
+      </div>
+      <div>
+        <h4 data-en="Institute" data-fa="موسسه">Institute</h4>
+        <ul><li><a href="about.html" data-en="About us" data-fa="درباره ما">About us</a></li><li><a href="contact.html" data-en="Contact" data-fa="تماس">Contact</a></li></ul>
+      </div>
+      <div>
+        <h4 data-en="Learn" data-fa="یادگیری">Learn</h4>
+        <ul><li><a href="courses.html" data-en="Courses" data-fa="دوره‌ها">Courses</a></li><li><a href="level-test.html" data-en="Placement test" data-fa="آزمون تعیین سطح">Placement test</a></li></ul>
+      </div>
+      <div>
+        <h4 data-en="Visit" data-fa="بازدید">Visit</h4>
+        <ul><li data-en="No. 24, Second Floor, <br> Rosewood Building, 87 Kingsway Street" data-fa="طبقه دوم، پلاک ۲4 <br> ساختمان رزوود، خیابان کینگزوِی ۸۷">No. 24, Second Floor, <br> Rosewood Building, 87 Kingsway Street</li><li data-en="Sat-Thu, 17:00–22:00" data-fa="شنبه تا پنجشنبه، ۱۷:۰۰–۲۲:۰۰">Sat-Thu, 17:00–22:00</li><li><a class="ltr" href="#">@nove_institute</a></li></ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span data-en="© 2026 Nova Institute." data-fa="© ۲۰۲۶ موسسه نوا.">© 2026 Nova Institute.</span>
+      <span data-en="Designed By x." data-fa="طراحی شده توسط x .">Designed By x.</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+function fa(){return document.documentElement.lang==='fa'}
+var T={hint:["Select an answer to continue","برای ادامه یک گزینه را انتخاب کنید"],next:["Next","بعدی"],see:["See my level","مشاهده سطح من"]};
+var FA={A1:["مبتدی","تازه شروع کرده‌اید؛ دوره‌های این سطح آرام با واژگان روزمره و ساختار جمله‌های ساده پیش می‌روند."],A2:["مقدماتی","می‌توانید مکالمه‌های ساده و روزمره را انجام دهید. دوره‌های این سطح اعتمادبه‌نفس شما را در گفتگوهای کوتاه می‌سازند."],B1:["متوسط","در مکالمه‌های روزمره راحت هستید و بیشتر بحث‌ها را دنبال می‌کنید."],B2:["بالاتر از متوسط","می‌توانید درباره بیشتر موضوع‌ها با روانی قابل قبول صحبت کنید."],C1:["پیشرفته","روان و بدون آمادگی در بیشتر موقعیت‌ها ارتباط برقرار می‌کنید."]};
+var questions = [
+  {q:"Choose the correct sentence.", opts:["She is liking coffee.","She likes coffee.","She like coffee."], correct:1, weight:1},
+  {q:"\"I ___ to the gym every morning.\"", opts:["go","goes","going"], correct:0, weight:1},
+  {q:"Which word means the opposite of 'generous'?", opts:["Stingy","Kind","Wealthy"], correct:0, weight:2},
+  {q:"\"If I ___ more time, I would learn Japanese.\"", opts:["have","had","will have"], correct:1, weight:2},
+  {q:"Choose the sentence with correct word order.", opts:["Always I drink coffee in the morning.","I always drink coffee in the morning.","I drink always coffee in the morning."], correct:1, weight:2},
+  {q:"\"By the time we arrived, the film ___.\"", opts:["had already started","already started","has already started"], correct:0, weight:3},
+  {q:"Which sentence uses the idiom correctly?", opts:["He let the cat out of the bag during the meeting.","He put the cat out of the bag.","He let the cat from the bag."], correct:0, weight:3},
+  {q:"\"Hardly had she sat down ___ the phone rang.\"", opts:["than","when","that"], correct:1, weight:4}
+];
+
+var idx=0, score=0, selected=null;
+var qText=document.getElementById('q-text');
+var qOpts=document.getElementById('q-opts');
+var nextBtn=document.getElementById('next-btn');
+var progress=document.getElementById('progress');
+var hint=document.getElementById('hint');
+
+function render(){
+  var item=questions[idx];
+  progress.textContent=fa()?"سؤال "+(idx+1)+" از "+questions.length:"Question "+(idx+1)+" of "+questions.length;
+  qText.textContent=item.q;
+  qOpts.innerHTML="";
+  selected=null;
+  nextBtn.disabled=true;
+  hint.textContent=T.hint[fa()?1:0];
+  item.opts.forEach(function(opt,i){
+    var div=document.createElement('div');
+    div.className="quiz-opt";
+    div.textContent=opt;
+    div.addEventListener('click',function(){
+      document.querySelectorAll('.quiz-opt').forEach(function(o){o.classList.remove('selected');});
+      div.classList.add('selected');
+      selected=i;
+      nextBtn.disabled=false;
+      hint.textContent="";
+    });
+    qOpts.appendChild(div);
+  });
+  nextBtn.textContent=(idx===questions.length-1)?T.see[fa()?1:0]:T.next[fa()?1:0];
+}
+
+nextBtn.addEventListener('click',function(){
+  var item=questions[idx];
+  if(selected===item.correct){ score += item.weight; }
+  idx++;
+  if(idx<questions.length){
+    render();
+  } else {
+    finish();
+  }
+});
+
+function finish(){
+  document.getElementById('quiz-area').style.display='none';
+  var result=document.getElementById('result');
+  result.style.display='block';
+
+  var levels=[
+    {max:3, code:"A1", name:"Beginner", desc:"You're just starting out — courses at this level move slowly through everyday vocabulary and basic sentence structure."},
+    {max:6, code:"A2", name:"Elementary", desc:"You can handle simple, routine exchanges. Courses at this level build confidence in short conversations."},
+    {max:10, code:"B1", name:"Intermediate", desc:"You're comfortable with everyday conversation and can follow most discussions."},
+    {max:14, code:"B2", name:"Upper Intermediate", desc:"You can discuss most topics with reasonable fluency."},
+    {max:18, code:"C1", name:"Advanced", desc:"You communicate fluently and spontaneously in most situations."},
+  ];
+  var picked=levels[levels.length-1];
+  for(var i=0;i<levels.length;i++){ if(score<=levels[i].max){ picked=levels[i]; break; } }
+
+  if(fa()&&FA[picked.code]){picked={code:picked.code,name:FA[picked.code][0],desc:FA[picked.code][1]};}
+  document.getElementById('result-level').textContent=picked.code;
+  result.querySelector('h3').textContent=picked.name;
+  result.querySelector('p').textContent=picked.desc;
+}
+
+document.addEventListener('langchange',function(){if(selected===null&&idx<questions.length)render();});
+render();
+</script>
+<script src="main.js"></script>
+</body>
+</html>

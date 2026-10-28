@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Courses — Nova Institute</title>
+<meta name="description" content="Nova Institute: English courses for every level, small groups, conversation first."><link rel="icon" href="assets/dlaIcon.jpg">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="topbar"><div class="wrap"><span data-en="Saturday–Thursday, 17:00–22:00" data-fa="شنبه تا پنجشنبه، ۱۷:۰۰ تا ۲۲:۰۰">Saturday–Thursday, 17:00–22:00</span><a class="ltr" href="tel:+44 20 7946 0583">+44 20 7946 0583</a><a class="ltr" href="#">@Nova_institue</a></div></div><header class="site">
+  <div class="nav">
+    <img src="favicon.png" class="dlaIcon" alt="Nova Institute">
+    
+    <div class="lang-switcher" onclick="toggleLangDropdown(event)">
+      <span class="lang-label">
+        <span class="flag" id="currentFlag">🇮🇷</span>
+        <span class="active-lang" id="currentLangLabel">FA</span>
+      </span>
+      <span class="arrow" id="langArrow">▾</span>
+      <div class="lang-dropdown" id="langDropdown">
+        <div class="lang-option active-lang" data-lang="fa" onclick="switchLanguage('fa', event)">
+          <span class="flag">🇮🇷</span> فارسی
+        </div>
+        <div class="lang-option" data-lang="en" onclick="switchLanguage('en', event)">
+          <span class="flag">🇬🇧</span> English
+        </div>
+      </div>
+    </div>
+    
+    <a class="logo" href="index.html">Nova<span class="dot">.</span></a>
+    <button class="menu-btn" aria-label="Toggle menu" onclick="toggleMenu()">
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M3 6H21M3 12H21M3 18H21" stroke="#0B3B38" stroke-width="2"/></svg>
+    </button>
+    <nav class="links" id="navLinks">
+      <a href="index.html" data-en="Home" data-fa="خانه">Home</a>
+      <a href="about.html" data-en="About" data-fa="درباره ما">About</a>
+      <a href="courses.html" class="active" data-en="Courses" data-fa="دوره‌ها">Courses</a>
+      <a href="level-test.html" data-en="Placement Test" data-fa="آزمون تعیین سطح">Placement Test</a>
+      <a href="contact.html" data-en="Contact" data-fa="تماس با ما">Contact</a>
+      <a href="contact.html" class="nav-cta mobile" data-en="Enroll now" data-fa="ثبت‌نام کنید">Enroll now</a>
+    </nav>
+    <a href="contact.html" class="nav-cta" data-en="Enroll now" data-fa="ثبت‌نام کنید">Enroll now</a>
+  </div>
+</header>
+
+<div class="page-hero">
+  <div class="wrap">
+    
+    <h1 data-en="English language.<br>Every level from zero to fluent." data-fa="زبان انگلیسی.<br>هر سطح از صفر تا مسلط.">English language.<br>Every level from zero to fluent.</h1>
+    <p data-en="Not sure which one fits you? Take the 12-minute placement test first — every course below links straight to its matching level." data-fa="مطمئن نیستید کدام یک برای شما مناسب است؟ ابتدا در آزمون تعیین سطح ۱۲ دقیقه‌ای شرکت کنید — هر دوره زیر مستقیماً به سطح مربوطه خود متصل می‌شود.">
+      Not sure which one fits you? Take the 12-minute placement test first — every course below links straight to its matching level.
+    </p>
+  </div>
+</div>
+
+<section>
+  <div class="wrap">
+    
+
+    <div class="grid-3">
+      <div class="course-card">
+        <div class="course-top">
+          <div><h3 data-en="Connect 1" data-fa="کانکت ۱">Connect 1</h3></div>
+          <span class="course-level">A1</span>
+        </div>
+        <div class="course-body">
+          <p data-en="This is a beginning-level book designed for teenagers aged 11–15 who are learning English for the first time." data-fa="این یک کتاب سطح مبتدی است که برای نوجوانان ۱۱ تا ۱۵ ساله که برای اولین بار انگلیسی یاد می‌گیرند طراحی شده است.">
+            This is a beginning-level book designed for teenagers aged 11–15 who are learning English for the first time.
+          </p>
+          <div class="course-meta"><span data-en="3 terms, 16 sessions each" data-fa="۳ ترم، هر ترم ۱۶ جلسه">3 terms, 16 sessions each</span><span data-en="2×/week" data-fa="۲ بار در هفته">2×/week</span></div>
+        </div>
+        <div class="course-foot"><span class="price" data-en="1,950,000 Toman" data-fa="۱٬۹۵۰٬۰۰۰ تومان">1,950,000 Toman</span><a class="btn btn-dark btn-sm" href="contact.html" data-en="Enroll" data-fa="ثبت‌نام">Enroll</a></div>
+      </div>
+
+      <div class="course-card">
+        <div class="course-top">
+          <div><h3 data-en="Connect 2" data-fa="کانکت ۲">Connect 2</h3></div>
+          <span class="course-level">A1–B1</span>
+        </div>
+        <div class="course-body">
+          <p data-en="This is a high-beginning level book. It continues to develop all four skills while introducing slightly more complex language." data-fa="این یک کتاب سطح بالا-مبتدی است. این کتاب به توسعه هر چهار مهارت ادامه می‌دهد و در عین حال زبان کمی پیچیده‌تر را معرفی می‌کند.">
+            This is a high-beginning level book. It continues to develop all four skills while introducing slightly more complex language.
+          </p>
+          <div class="course-meta"><span data-en="3 terms, 16 sessions each" data-fa="۳ ترم، هر ترم ۱۶ جلسه">3 terms, 16 sessions each</span><span data-en="2×/week" data-fa="۲ بار در هفته">2×/week</span></div>
+        </div>
+        <div class="course-foot"><span class="price" data-en="2,100,000 Toman" data-fa="۲٬۱۰۰٬۰۰۰ تومان">2,100,000 Toman</span><a class="btn btn-dark btn-sm" href="contact.html" data-en="Enroll" data-fa="ثبت‌نام">Enroll</a></div>
+      </div>
+
+      <div class="course-card">
+        <div class="course-top">
+          <div><h3 data-en="Connect 3" data-fa="کانکت ۳">Connect 3</h3></div>
+          <span class="course-level">A1–B1</span>
+        </div>
+        <div class="course-body">
+          <p data-en="This is a low-intermediate level book. It strengthens all four skills simultaneously through practical, real-life themes." data-fa="این یک کتاب سطح متوسط-پایین است. این کتاب هر چهار مهارت را به طور همزمان از طریق موضوعات عملی و واقعی تقویت می‌کند.">
+            This is a low-intermediate level book. It strengthens all four skills simultaneously through practical, real-life themes.
+          </p>
+          <div class="course-meta"><span data-en="3 terms, 16 sessions each" data-fa="۳ ترم، هر ترم ۱۶ جلسه">3 terms, 16 sessions each</span><span data-en="2×/week" data-fa="۲ بار در هفته">2×/week</span></div>
+        </div>
+        <div class="course-foot"><span class="price" data-en="2,250,000 Toman" data-fa="۲٬۲۵۰٬۰۰۰ تومان">2,250,000 Toman</span><a class="btn btn-dark btn-sm" href="contact.html" data-en="Enroll" data-fa="ثبت‌نام">Enroll</a></div>
+      </div>
+
+      <div class="course-card">
+        <div class="course-top">
+          <div><h3 data-en="Connect 4" data-fa="کانکت ۴">Connect 4</h3></div>
+          <span class="course-level">A2–B1</span>
+        </div>
+        <div class="course-body">
+          <p data-en="This is the final level of the series, at an intermediate level. It reinforces all four skills in more varied contexts." data-fa="این آخرین سطح از این مجموعه است، در سطح متوسط. این کتاب هر چهار مهارت را در زمینه‌های متنوع‌تر تقویت می‌کند.">
+            This is the final level of the series, at an intermediate level. It reinforces all four skills in more varied contexts.
+          </p>
+          <div class="course-meta"><span data-en="3 terms, 16 sessions each" data-fa="۳ ترم، هر ترم ۱۶ جلسه">3 terms, 16 sessions each</span><span data-en="2×/week" data-fa="۲ بار در هفته">2×/week</span></div>
+        </div>
+        <div class="course-foot"><span class="price" data-en="2,400,000 Toman" data-fa="۲٬۴۰۰٬۰۰۰ تومان">2,400,000 Toman</span><a class="btn btn-dark btn-sm" href="contact.html" data-en="Enroll" data-fa="ثبت‌نام">Enroll</a></div>
+      </div>
+
+      <div class="course-card">
+        <div class="course-top">
+          <div><h3 data-en="American English File Starter" data-fa="امریکن اینگلیش فایل استارتر">American English File Starter</h3></div>
+          <span class="course-level">A1</span>
+        </div>
+        <div class="course-body">
+          <p data-en="This is the lowest level of the series, designed for complete beginners. It focuses on the basics of the language." data-fa="این پایین‌ترین سطح این مجموعه است که برای مبتدیان کامل طراحی شده است. این کتاب بر روی اصول اولیه زبان تمرکز دارد.">
+            This is the lowest level of the series, designed for complete beginners. It focuses on the basics of the language.
+          </p>
+          <div class="course-meta"><span data-en="3 terms, 16 sessions each" data-fa="۳ ترم، هر ترم ۱۶ جلسه">3 terms, 16 sessions each</span><span data-en="2×/week" data-fa="۲ بار در هفته">2×/week</span></div>
+        </div>
+        <div class="course-foot"><span class="price" data-en="2,350,000 Toman" data-fa="۲٬۳۵۰٬۰۰۰ تومان">2,350,000 Toman</span><a class="btn btn-dark btn-sm" href="contact.html" data-en="Enroll" data-fa="ثبت‌نام">Enroll</a></div>
+      </div>
+
+      <div class="course-card">
+        <div class="course-top">
+          <div><h3 data-en="American English File 1" data-fa="امریکن اینگلیش فایل ۱">American English File 1</h3></div>
+          <span class="course-level">A1-A2</span>
+        </div>
+        <div class="course-body">
+          <p data-en="This book is conversation-based and places the greatest emphasis on developing speaking skills." data-fa="این کتاب مبتنی بر مکالمه است و بیشترین تاکید را بر توسعه مهارت‌های گفتاری دارد.">
+            This book is conversation-based and places the greatest emphasis on developing speaking skills.
+          </p>
+          <div class="course-meta"><span data-en="3 terms, 16 sessions each" data-fa="۳ ترم، هر ترم ۱۶ جلسه">3 terms, 16 sessions each</span><span data-en="2×/week" data-fa="۲ بار در هفته">2×/week</span></div>
+        </div>
+        <div class="course-foot"><span class="price" data-en="2,500,000 Toman" data-fa="۲٬۵۰۰٬۰۰۰ تومان">2,500,000 Toman</span><a class="btn btn-dark btn-sm" href="contact.html" data-en="Enroll" data-fa="ثبت‌نام">Enroll</a></div>
+      </div>
+
+      <div class="course-card">
+        <div class="course-top">
+          <div><h3 data-en="American English File 2" data-fa="امریکن اینگلیش فایل ۲">American English File 2</h3></div>
+          <span class="course-level">A1-A2</span>
+        </div>
+        <div class="course-body">
+          <p data-en="This is a pre-intermediate level book covering simple past, past continuous, future with be going to, and more." data-fa="این یک کتاب سطح پیش-متوسط است که شامل گذشته ساده، گذشته استمراری، آینده با be going to و موارد بیشتر است.">
+            This is a pre-intermediate level book covering simple past, past continuous, future with be going to, and more.
+          </p>
+          <div class="course-meta"><span data-en="3 terms, 16 sessions each" data-fa="۳ ترم، هر ترم ۱۶ جلسه">3 terms, 16 sessions each</span><span data-en="2×/week" data-fa="۲ بار در هفته">2×/week</span></div>
+        </div>
+        <div class="course-foot"><span class="price" data-en="2,700,000 Toman" data-fa="۲٬۷۰۰٬۰۰۰ تومان">2,700,000 Toman</span><a class="btn btn-dark btn-sm" href="contact.html" data-en="Enroll" data-fa="ثبت‌نام">Enroll</a></div>
+      </div>
+
+      <div class="course-card">
+        <div class="course-top">
+          <div><h3 data-en="American English File 3" data-fa="امریکن اینگلیش فایل ۳">American English File 3</h3></div>
+          <span class="course-level">B1</span>
+        </div>
+        <div class="course-body">
+          <p data-en="This is an upper-intermediate level book covering verb tenses, modal verbs, third conditionals, and reported speech." data-fa="این یک کتاب سطح بالا-متوسط است که شامل زمان‌های فعل، افعال modal، شرطی نوع سوم و گفتار غیرمستقیم است.">
+            This is an upper-intermediate level book covering verb tenses, modal verbs, third conditionals, and reported speech.
+          </p>
+          <div class="course-meta"><span data-en="3 terms, 16 sessions each" data-fa="۳ ترم، هر ترم ۱۶ جلسه">3 terms, 16 sessions each</span><span data-en="2×/week" data-fa="۲ بار در هفته">2×/week</span></div>
+        </div>
+        <div class="course-foot"><span class="price" data-en="3,000,000 Toman" data-fa="۳٬۰۰۰٬۰۰۰ تومان">3,000,000 Toman</span><a class="btn btn-dark btn-sm" href="contact.html" data-en="Enroll" data-fa="ثبت‌نام">Enroll</a></div>
+      </div>
+
+      <div class="course-card">
+        <div class="course-top">
+          <div><h3 data-en="American English File 4" data-fa="امریکن اینگلیش فایل ۴">American English File 4</h3></div>
+          <span class="course-level">B2</span>
+        </div>
+        <div class="course-body">
+          <p data-en="This is an advanced level book covering complex question structures, present perfect continuous, and more." data-fa="این یک کتاب سطح پیشرفته است که شامل ساختارهای سوالی پیچیده، حال کامل استمراری و موارد بیشتر است.">
+            This is an advanced level book covering complex question structures, present perfect continuous, and more.
+          </p>
+          <div class="course-meta"><span data-en="3 terms, 16 sessions each" data-fa="۳ ترم، هر ترم ۱۶ جلسه">3 terms, 16 sessions each</span><span data-en="2×/week" data-fa="۲ بار در هفته">2×/week</span></div>
+        </div>
+        <div class="course-foot"><span class="price" data-en="3,200,000 Toman" data-fa="۳٬۲۰۰٬۰۰۰ تومان">3,200,000 Toman</span><a class="btn btn-dark btn-sm" href="contact.html" data-en="Enroll" data-fa="ثبت‌نام">Enroll</a></div>
+      </div>
+
+      <div class="course-card">
+        <div class="course-top">
+          <div><h3 data-en="American English File 5" data-fa="امریکن اینگلیش فایل ۵">American English File 5</h3></div>
+          <span class="course-level">C1</span>
+        </div>
+        <div class="course-body">
+          <p data-en="This is the highest level of the series, designed for very advanced learners covering discourse markers and more." data-fa="این بالاترین سطح این مجموعه است که برای زبان‌آموزان بسیار پیشرفته طراحی شده و شامل نشانگرهای گفتمان و موارد بیشتر است.">
+            This is the highest level of the series, designed for very advanced learners covering discourse markers and more.
+          </p>
+          <div class="course-meta"><span data-en="3 terms, 16 sessions each" data-fa="۳ ترم، هر ترم ۱۶ جلسه">3 terms, 16 sessions each</span><span data-en="2×/week" data-fa="۲ بار در هفته">2×/week</span></div>
+        </div>
+        <div class="course-foot"><span class="price" data-en="3,500,000 Toman" data-fa="۳٬۵۰۰٬۰۰۰ تومان">3,500,000 Toman</span><a class="btn btn-dark btn-sm" href="contact.html" data-en="Enroll" data-fa="ثبت‌نام">Enroll</a></div>
+      </div>
+
+      <div class="course-card">
+        <div class="course-top">
+          <div><h3 data-en="Workshop" data-fa="کارگاه">Workshop</h3></div>
+        </div>
+        <div class="course-body">
+          <p data-en="Our institute holds speaking-focused workshop classes. These sessions are interactive and aim to boost students' speaking confidence." data-fa="موسسه ما کلاس‌های کارگاه محور گفتار را برگزار می‌کند. این جلسات تعاملی هستند و هدف آنها افزایش اعتماد به نفس گفتاری دانشجویان است.">
+            Our institute holds speaking-focused workshop classes. These sessions are interactive and aim to boost students' speaking confidence.
+          </p>
+          <div class="course-meta"><span data-en="3 terms, 16 sessions each" data-fa="۳ ترم، هر ترم ۱۶ جلسه">3 terms, 16 sessions each</span><span data-en="2×/week" data-fa="۲ بار در هفته">2×/week</span></div>
+        </div>
+        <div class="course-foot"><span class="price" data-en="Call for details" data-fa="برای اطلاعات تماس بگیرید">Call for details</span><a class="btn btn-dark btn-sm" href="contact.html" data-en="Contact us" data-fa="تماس با ما">Contact us</a></div>
+      </div>
+      
+      <div class="course-card">
+        <div class="course-top">
+          <div><h3 data-en="TTC" data-fa="تی‌تی‌سی">TTC</h3></div>
+        </div>
+        <div class="course-body">
+          <p data-en="TTC (Teacher Training Course) is a structured program designed to prepare individuals for a career in teaching. It equips trainees with the essential pedagogical skills, classroom management techniques, lesson planning strategies, and subject-specific teaching methods needed to become effective educators." data-fa="تی‌تی‌سی (دوره آموزش معلمان) یک برنامه ساختاریافته است که برای آماده‌سازی افراد برای حرفه تدریس طراحی شده است. این دوره مهارت‌های آموزشی ضروری، تکنیک‌های مدیریت کلاس، استراتژی‌های برنامه‌ریزی درس و روش‌های تدریس خاص هر موضوع را به کارآموزان ارائه می‌دهد.">
+            TTC (Teacher Training Course) is a structured program designed to prepare individuals for a career in teaching. It equips trainees with the essential pedagogical skills, classroom management techniques, lesson planning strategies, and subject-specific teaching methods needed to become effective educators.
+          </p>
+          
+        </div>
+        <div class="course-foot"><span class="price" data-en="Call for details" data-fa="برای اطلاعات تماس بگیرید">Call for details</span><a class="btn btn-dark btn-sm" href="contact.html" data-en="Contact us" data-fa="تماس با ما">Contact us</a></div>
+      </div>
+      
+      <div class="course-card">
+        <div class="course-top">
+          <div><h3 data-en="TESOL" data-fa="تسول">TESOL</h3></div>
+        </div>
+        <div class="course-body">
+          <p data-en="TESOL stands for Teaching English to Speakers of Other Languages. It is a professional certification and academic field that prepares teachers to instruct English learners whose native language is not English. TESOL covers both teaching English in non-English-speaking countries (like EFL — English as a Foreign Language) and in English-speaking countries to immigrants or international students (like ESL — English as a Second Language)." data-fa="تسول مخفف Teaching English to Speakers of Other Languages است. این یک گواهینامه حرفه‌ای و رشته دانشگاهی است که معلمان را برای آموزش به زبان‌آموزانی که زبان مادری آنها انگلیسی نیست، آماده می‌کند. تسول هم آموزش زبان انگلیسی در کشورهای غیر انگلیسی‌زبان (مانند EFL) و هم در کشورهای انگلیسی‌زبان به مهاجران یا دانشجویان بین‌المللی (مانند ESL) را پوشش می‌دهد.">
+            TESOL stands for Teaching English to Speakers of Other Languages. It is a professional certification and academic field that prepares teachers to instruct English learners whose native language is not English. TESOL covers both teaching English in non-English-speaking countries (like EFL — English as a Foreign Language) and in English-speaking countries to immigrants or international students (like ESL — English as a Second Language).
+          </p>
+          
+        </div>
+        <div class="course-foot"><span class="price" data-en="Call for details" data-fa="برای اطلاعات تماس بگیرید">Call for details</span><a class="btn btn-dark btn-sm" href="contact.html" data-en="Contact us" data-fa="تماس با ما">Contact us</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band-ink tight">
+  <div class="wrap center">
+    <h2 data-en="Still not sure which level you're at?" data-fa="هنوز مطمئن نیستید در چه سطحی هستید؟">Still not sure which level you're at?</h2>
+    <p data-en="Take the placement test — it takes about 12 minutes and points you straight to the right course." data-fa="آزمون تعیین سطح را انجام دهید — حدود ۱۲ دقیقه زمان می‌برد و شما را مستقیماً به دوره مناسب راهنمایی می‌کند.">
+      Take the placement test — it takes about 12 minutes and points you straight to the right course.
+    </p>
+    <a href="level-test.html" class="btn btn-primary" data-en="Take the placement test" data-fa="شرکت در آزمون تعیین سطح">Take the placement test</a>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="foot-logo">Nova.</div>
+        <p data-en="A neighbourhood English institute teaching through real conversation." data-fa="یک موسسه زبان انگلیسی محلی که از طریق مکالمه واقعی آموزش می‌دهد.">
+          A neighbourhood English institute teaching through real conversation.
+        </p>
+      </div>
+      <div>
+        <h4 data-en="Institute" data-fa="موسسه">Institute</h4>
+        <ul><li><a href="about.html" data-en="About us" data-fa="درباره ما">About us</a></li><li><a href="contact.html" data-en="Contact" data-fa="تماس">Contact</a></li></ul>
+      </div>
+      <div>
+        <h4 data-en="Learn" data-fa="یادگیری">Learn</h4>
+        <ul><li><a href="courses.html" data-en="Courses" data-fa="دوره‌ها">Courses</a></li><li><a href="level-test.html" data-en="Placement test" data-fa="آزمون تعیین سطح">Placement test</a></li></ul>
+      </div>
+      <div>
+        <h4 data-en="Visit" data-fa="بازدید">Visit</h4>
+        <ul><li data-en="No. 24, Second Floor, <br> Rosewood Building, 87 Kingsway Street" data-fa="طبقه دوم، پلاک ۲4 <br> ساختمان رزوود، خیابان کینگزوِی ۸۷">No. 24, Second Floor, <br> Rosewood Building, 87 Kingsway Street</li><li data-en="Sat-Thu, 17:00–22:00" data-fa="شنبه تا پنجشنبه، ۱۷:۰۰–۲۲:۰۰">Sat-Thu, 17:00–22:00</li><li><a class="ltr" href="#">@nove_institute</a></li></ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span data-en="© 2026 Nova Institute." data-fa="© ۲۰۲۶ موسسه نوا.">© 2026 Nova Institute.</span>
+      <span data-en="Designed By x." data-fa="طراحی شده توسط x .">Designed By x.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
